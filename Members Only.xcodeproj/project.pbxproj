@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		507D570C202CF13E00BB72AF /* BLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D570B202CF13E00BB72AF /* BLEPeripheral.swift */; };
+		507D570E202CF74000BB72AF /* DataConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D570D202CF74000BB72AF /* DataConversions.swift */; };
+		507D5711202CF82F00BB72AF /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D5710202CF82F00BB72AF /* CommandQueue.swift */; };
 		50971A26202B7DA70001234E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50971A25202B7DA70001234E /* AppDelegate.swift */; };
 		50971A28202B7DA70001234E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50971A27202B7DA70001234E /* ViewController.swift */; };
 		50971A2B202B7DA70001234E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50971A29202B7DA70001234E /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		507D570B202CF13E00BB72AF /* BLEPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPeripheral.swift; sourceTree = "<group>"; };
+		507D570D202CF74000BB72AF /* DataConversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConversions.swift; sourceTree = "<group>"; };
+		507D5710202CF82F00BB72AF /* CommandQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandQueue.swift; sourceTree = "<group>"; };
 		50971A22202B7DA70001234E /* Members Only.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Members Only.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50971A25202B7DA70001234E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50971A27202B7DA70001234E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		507D570A202CF10F00BB72AF /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				50971A3A202BBF880001234E /* BLEManager.swift */,
+				507D570B202CF13E00BB72AF /* BLEPeripheral.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		507D570F202CF80D00BB72AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				507D570D202CF74000BB72AF /* DataConversions.swift */,
+				507D5710202CF82F00BB72AF /* CommandQueue.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		50971A19202B7DA70001234E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +82,8 @@
 		50971A24202B7DA70001234E /* Members Only */ = {
 			isa = PBXGroup;
 			children = (
+				507D570F202CF80D00BB72AF /* Utils */,
+				507D570A202CF10F00BB72AF /* Bluetooth */,
 				50971A25202B7DA70001234E /* AppDelegate.swift */,
 				50971A27202B7DA70001234E /* ViewController.swift */,
 				50971A29202B7DA70001234E /* Main.storyboard */,
@@ -65,7 +91,6 @@
 				50971A31202B7DA90001234E /* LaunchScreen.storyboard */,
 				50971A34202B7DA90001234E /* Info.plist */,
 				50971A2C202B7DA70001234E /* Members_Only.xcdatamodeld */,
-				50971A3A202BBF880001234E /* BLEManager.swift */,
 			);
 			path = "Members Only";
 			sourceTree = "<group>";
@@ -142,9 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				50971A28202B7DA70001234E /* ViewController.swift in Sources */,
+				507D5711202CF82F00BB72AF /* CommandQueue.swift in Sources */,
 				50971A3B202BBF880001234E /* BLEManager.swift in Sources */,
 				50971A26202B7DA70001234E /* AppDelegate.swift in Sources */,
+				507D570E202CF74000BB72AF /* DataConversions.swift in Sources */,
 				50971A2E202B7DA70001234E /* Members_Only.xcdatamodeld in Sources */,
+				507D570C202CF13E00BB72AF /* BLEPeripheral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
