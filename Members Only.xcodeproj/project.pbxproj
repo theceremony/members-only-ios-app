@@ -13,6 +13,7 @@
 		50971A2E202B7DA70001234E /* Members_Only.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50971A2C202B7DA70001234E /* Members_Only.xcdatamodeld */; };
 		50971A30202B7DA90001234E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50971A2F202B7DA90001234E /* Assets.xcassets */; };
 		50971A33202B7DA90001234E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50971A31202B7DA90001234E /* LaunchScreen.storyboard */; };
+		50971A3B202BBF880001234E /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50971A3A202BBF880001234E /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50971A2F202B7DA90001234E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50971A32202B7DA90001234E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50971A34202B7DA90001234E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50971A3A202BBF880001234E /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				50971A31202B7DA90001234E /* LaunchScreen.storyboard */,
 				50971A34202B7DA90001234E /* Info.plist */,
 				50971A2C202B7DA70001234E /* Members_Only.xcdatamodeld */,
+				50971A3A202BBF880001234E /* BLEManager.swift */,
 			);
 			path = "Members Only";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50971A28202B7DA70001234E /* ViewController.swift in Sources */,
+				50971A3B202BBF880001234E /* BLEManager.swift in Sources */,
 				50971A26202B7DA70001234E /* AppDelegate.swift in Sources */,
 				50971A2E202B7DA70001234E /* Members_Only.xcdatamodeld in Sources */,
 			);
